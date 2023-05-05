@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sign_In_Activity"
+    android:orientation="vertical"
+    android:background="@color/iv_bggg"
+   >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Your Global Community"
+        android:gravity="top|center"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textColor="@color/Background"/>
+
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:src="@drawable/bg222"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_change"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Let's Get Started"
+            android:textSize="20dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:textColor="@color/Background"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+91, INDIA"
+            android:minHeight="48dp"
+            android:textColor="@color/Background"
+            android:textColorHint="@color/Background"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:padding="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPassword"
+            android:hint="Please Enter Phone Number"
+            android:minHeight="48dp"
+            android:inputType="number"
+            android:padding="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColorHint="@color/Background"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/btn"
+            android:layout_height="wrap_content"
+            app:cornerRadius="18dp"
+            android:backgroundTint="@color/Background"
+            android:text="CONTINUE"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change phone number?"
+            android:id="@+id/tv"
+            android:textSize="15dp"
+            android:textColor="@color/Background"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"/>
+
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="20dp"
+       android:padding="10dp"
+       android:layout_marginRight="20dp"
+       android:orientation="vertical"
+       android:gravity="center"
+       android:background="@drawable/bg_change">
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="By logging in, You agree  with our"
+           android:typeface="serif"
+           android:gravity="center"
+           android:textColor="@color/Background"
+           android:padding="5dp"
+           />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="TERMS AND CONDITIONS"
+           android:typeface="serif"
+           android:gravity="center"
+           android:textColor="@color/Background"
+           android:padding="5dp"
+           />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="To know how we process your data refer to our"
+           android:typeface="serif"
+           android:gravity="center"
+           android:textColor="@color/Background"
+           android:padding="5dp"
+           />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="PRIVACY POLICY"
+           android:gravity="center"
+           android:typeface="serif"
+           android:textColor="@color/Background"
+           android:padding="5dp"
+           />
+
+   </LinearLayout>
+
+</LinearLayout>
